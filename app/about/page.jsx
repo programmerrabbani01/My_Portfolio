@@ -4,19 +4,13 @@ import Transition from "@/components/Transition.jsx";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
 
 import {
   SiNextdotjs,
   SiAdobexd,
   SiAdobephotoshop,
-  SiTypescript
+  SiTypescript,
 } from "react-icons/si";
 
 //  data
@@ -32,7 +26,7 @@ const aboutData = [
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiTypescript/>
+          <SiTypescript />,
         ],
       },
       {
@@ -130,8 +124,8 @@ export default function AboutPage() {
               exit="hidden"
               className="h2"
             >
-              Captivating <span className=" text-indigo-400 ">stories</span> birth
-              magnificent design{" "}
+              Captivating <span className=" text-indigo-400 ">stories</span>
+              birth magnificent design
             </motion.h2>
             <motion.p
               variants={fadeIn("right", 0.4)}
@@ -160,7 +154,7 @@ export default function AboutPage() {
                     <CountUp start={0} end={10} duration={5} /> +
                   </div>
                   <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ">
-                    Years Of Experience{" "}
+                    Years Of Experience
                   </div>
                 </div>
                 {/* clients */}

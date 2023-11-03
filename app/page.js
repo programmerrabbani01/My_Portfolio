@@ -30,7 +30,7 @@ export default function Home() {
               exit="hidden"
               className="h1"
             >
-              Transforming Ideas <br /> Into{" "}
+              Transforming Ideas <br /> Into
               <span className="text-indigo-400">Digital Reality</span>
             </motion.h1>
             {/* subtitle */}
